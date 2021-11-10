@@ -11,10 +11,6 @@ class ComplexTableViewController: UITableViewController {
 
     var persons:[Person]!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -44,8 +40,4 @@ class ComplexTableViewController: UITableViewController {
 
         return cell
     }
-    
-
-   
-
 }

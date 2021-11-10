@@ -68,21 +68,53 @@
 		4EE5FD1F273BC86F00051C01 /* NikolaevAA_2.7 */ = {
 			isa = PBXGroup;
 			children = (
+				4EE5FD48273C3BA000051C01 /* Model */,
+				4EE5FD47273C3B5100051C01 /* ViewControllers */,
+				4EE5FD46273C3B0300051C01 /* StoryBoards */,
 				4EE5FD20273BC86F00051C01 /* AppDelegate.swift */,
 				4EE5FD22273BC86F00051C01 /* SceneDelegate.swift */,
-				4EE5FD26273BC86F00051C01 /* Main.storyboard */,
 				4EE5FD29273BC87000051C01 /* Assets.xcassets */,
-				4EE5FD2B273BC87000051C01 /* LaunchScreen.storyboard */,
 				4EE5FD2E273BC87000051C01 /* Info.plist */,
+			);
+			path = NikolaevAA_2.7;
+			sourceTree = "<group>";
+		};
+		4EE5FD46273C3B0300051C01 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				4EE5FD2B273BC87000051C01 /* LaunchScreen.storyboard */,
+				4EE5FD26273BC86F00051C01 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		4EE5FD47273C3B5100051C01 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
 				4EE5FD34273BD42500051C01 /* SimpleTableViewController.swift */,
 				4EE5FD36273BE73F00051C01 /* PersonViewController.swift */,
 				4EE5FD38273BE83D00051C01 /* ComplexTableViewController.swift */,
-				4EE5FD3A273BEB6B00051C01 /* Person.swift */,
 				4EE5FD40273C2E6700051C01 /* MainViewController.swift */,
 				4EE5FD42273C30E600051C01 /* SimpleNavigationViewController.swift */,
 				4EE5FD44273C313C00051C01 /* ComplexNavigationViewController.swift */,
 			);
-			path = NikolaevAA_2.7;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4EE5FD48273C3BA000051C01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EE5FD49273C3BAF00051C01 /* Service */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4EE5FD49273C3BAF00051C01 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4EE5FD3A273BEB6B00051C01 /* Person.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

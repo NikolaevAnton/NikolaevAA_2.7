@@ -22,8 +22,4 @@ class PersonViewController: UIViewController {
         phoneLabel.text = person.phone
         emailLabel.text = person.email
     }
-    
-
-    
-
 }
