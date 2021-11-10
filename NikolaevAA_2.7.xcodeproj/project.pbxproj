@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		4EE5FD21273BC86F00051C01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD20273BC86F00051C01 /* AppDelegate.swift */; };
 		4EE5FD23273BC86F00051C01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD22273BC86F00051C01 /* SceneDelegate.swift */; };
-		4EE5FD25273BC86F00051C01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD24273BC86F00051C01 /* ViewController.swift */; };
 		4EE5FD28273BC86F00051C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE5FD26273BC86F00051C01 /* Main.storyboard */; };
 		4EE5FD2A273BC87000051C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EE5FD29273BC87000051C01 /* Assets.xcassets */; };
 		4EE5FD2D273BC87000051C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE5FD2B273BC87000051C01 /* LaunchScreen.storyboard */; };
+		4EE5FD35273BD42500051C01 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD34273BD42500051C01 /* SimpleTableViewController.swift */; };
+		4EE5FD37273BE73F00051C01 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD36273BE73F00051C01 /* PersonViewController.swift */; };
+		4EE5FD39273BE83D00051C01 /* ComplexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD38273BE83D00051C01 /* ComplexTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4EE5FD1D273BC86F00051C01 /* NikolaevAA_2.7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikolaevAA_2.7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE5FD20273BC86F00051C01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EE5FD22273BC86F00051C01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EE5FD24273BC86F00051C01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4EE5FD27273BC86F00051C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EE5FD29273BC87000051C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EE5FD2C273BC87000051C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4EE5FD2E273BC87000051C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE5FD34273BD42500051C01 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
+		4EE5FD36273BE73F00051C01 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		4EE5FD38273BE83D00051C01 /* ComplexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				4EE5FD20273BC86F00051C01 /* AppDelegate.swift */,
 				4EE5FD22273BC86F00051C01 /* SceneDelegate.swift */,
-				4EE5FD24273BC86F00051C01 /* ViewController.swift */,
 				4EE5FD26273BC86F00051C01 /* Main.storyboard */,
 				4EE5FD29273BC87000051C01 /* Assets.xcassets */,
 				4EE5FD2B273BC87000051C01 /* LaunchScreen.storyboard */,
 				4EE5FD2E273BC87000051C01 /* Info.plist */,
+				4EE5FD34273BD42500051C01 /* SimpleTableViewController.swift */,
+				4EE5FD36273BE73F00051C01 /* PersonViewController.swift */,
+				4EE5FD38273BE83D00051C01 /* ComplexTableViewController.swift */,
 			);
 			path = NikolaevAA_2.7;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EE5FD25273BC86F00051C01 /* ViewController.swift in Sources */,
+				4EE5FD39273BE83D00051C01 /* ComplexTableViewController.swift in Sources */,
+				4EE5FD35273BD42500051C01 /* SimpleTableViewController.swift in Sources */,
 				4EE5FD21273BC86F00051C01 /* AppDelegate.swift in Sources */,
 				4EE5FD23273BC86F00051C01 /* SceneDelegate.swift in Sources */,
+				4EE5FD37273BE73F00051C01 /* PersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +313,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
