@@ -15,6 +15,10 @@
 		4EE5FD35273BD42500051C01 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD34273BD42500051C01 /* SimpleTableViewController.swift */; };
 		4EE5FD37273BE73F00051C01 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD36273BE73F00051C01 /* PersonViewController.swift */; };
 		4EE5FD39273BE83D00051C01 /* ComplexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD38273BE83D00051C01 /* ComplexTableViewController.swift */; };
+		4EE5FD3B273BEB6B00051C01 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD3A273BEB6B00051C01 /* Person.swift */; };
+		4EE5FD41273C2E6700051C01 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD40273C2E6700051C01 /* MainViewController.swift */; };
+		4EE5FD43273C30E600051C01 /* SimpleNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD42273C30E600051C01 /* SimpleNavigationViewController.swift */; };
+		4EE5FD45273C313C00051C01 /* ComplexNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5FD44273C313C00051C01 /* ComplexNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		4EE5FD34273BD42500051C01 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
 		4EE5FD36273BE73F00051C01 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		4EE5FD38273BE83D00051C01 /* ComplexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexTableViewController.swift; sourceTree = "<group>"; };
+		4EE5FD3A273BEB6B00051C01 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		4EE5FD40273C2E6700051C01 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4EE5FD42273C30E600051C01 /* SimpleNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNavigationViewController.swift; sourceTree = "<group>"; };
+		4EE5FD44273C313C00051C01 /* ComplexNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 				4EE5FD34273BD42500051C01 /* SimpleTableViewController.swift */,
 				4EE5FD36273BE73F00051C01 /* PersonViewController.swift */,
 				4EE5FD38273BE83D00051C01 /* ComplexTableViewController.swift */,
+				4EE5FD3A273BEB6B00051C01 /* Person.swift */,
+				4EE5FD40273C2E6700051C01 /* MainViewController.swift */,
+				4EE5FD42273C30E600051C01 /* SimpleNavigationViewController.swift */,
+				4EE5FD44273C313C00051C01 /* ComplexNavigationViewController.swift */,
 			);
 			path = NikolaevAA_2.7;
 			sourceTree = "<group>";
@@ -144,11 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE5FD43273C30E600051C01 /* SimpleNavigationViewController.swift in Sources */,
+				4EE5FD41273C2E6700051C01 /* MainViewController.swift in Sources */,
+				4EE5FD3B273BEB6B00051C01 /* Person.swift in Sources */,
 				4EE5FD39273BE83D00051C01 /* ComplexTableViewController.swift in Sources */,
 				4EE5FD35273BD42500051C01 /* SimpleTableViewController.swift in Sources */,
 				4EE5FD21273BC86F00051C01 /* AppDelegate.swift in Sources */,
 				4EE5FD23273BC86F00051C01 /* SceneDelegate.swift in Sources */,
 				4EE5FD37273BE73F00051C01 /* PersonViewController.swift in Sources */,
+				4EE5FD45273C313C00051C01 /* ComplexNavigationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

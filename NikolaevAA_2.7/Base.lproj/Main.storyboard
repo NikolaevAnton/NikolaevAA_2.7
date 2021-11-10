@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Main View Controller-->
         <scene sceneID="MTW-97-U95">
             <objects>
-                <tabBarController id="cKJ-hf-HKj" sceneMemberID="viewController">
+                <tabBarController id="cKJ-hf-HKj" customClass="MainViewController" customModule="NikolaevAA_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3j1-XT-XLV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -35,12 +35,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="personCell" id="eRH-ER-MHb">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="personCell" textLabel="Wv0-77-sCv" style="IBUITableViewCellStyleDefault" id="eRH-ER-MHb">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eRH-ER-MHb" id="48V-mJ-j7v">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Wv0-77-sCv">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="kDD-UF-VMA" kind="show" id="e99-7r-gqb"/>
@@ -67,12 +76,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="person" id="yQt-AL-hNt">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="person" textLabel="S9l-Oj-ikO" style="IBUITableViewCellStyleDefault" id="yQt-AL-hNt">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yQt-AL-hNt" id="aXc-2q-ev7">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="S9l-Oj-ikO">
+                                            <rect key="frame" x="20" y="0.0" width="374" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -87,10 +105,10 @@
             </objects>
             <point key="canvasLocation" x="2010" y="61"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Complex Navigation View Controller-->
         <scene sceneID="aXh-bp-9G6">
             <objects>
-                <navigationController id="GlT-3t-VID" sceneMemberID="viewController">
+                <navigationController id="GlT-3t-VID" customClass="ComplexNavigationViewController" customModule="NikolaevAA_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="F2W-8G-GoN"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="5Qv-CD-BEC">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -104,10 +122,10 @@
             </objects>
             <point key="canvasLocation" x="1116" y="61"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Simple Navigation View Controller-->
         <scene sceneID="4ax-36-dsi">
             <objects>
-                <navigationController id="aEa-d3-NOp" sceneMemberID="viewController">
+                <navigationController id="aEa-d3-NOp" customClass="SimpleNavigationViewController" customModule="NikolaevAA_2_7" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="chO-Ti-JcB"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="LPB-Kn-vEv">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
